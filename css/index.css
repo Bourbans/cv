@@ -1,0 +1,132 @@
+/* 
+    By Corbin Langton (X00173636)
+    Interative Media Design CA 2
+*/
+
+ul li::before {
+    content: "\2192";
+    margin-right: 5px;
+}
+
+.self-picture {
+    height: 250px;
+    width: 250px;
+}
+
+.hero-card {
+    background-image: url(../images/background-image.jpeg);
+    background-size: 100% 14rem;
+    background-repeat: no-repeat;
+    max-width: 50%;
+}
+
+.hero-section-img {
+    height: 100px;
+    width: 100px;
+}
+
+.gpa-heading {
+    font-weight: bold;
+}
+
+.fstyr {
+    position: relative;
+    transition: height 0.5s ease;
+    -webkit-transition: height 0.5s;
+    height: 10px;
+    overflow: hidden;
+    border-color: azure;
+}
+
+.fstyr:hover {
+    height: 600px;
+}
+
+.sndyr{
+    position: relative;
+    transition: height 0.5 ease;
+    -webkit-transition: height 0.5s;
+    height: 10px;
+    overflow: hidden;
+    border-color: azure;
+}
+
+.sndyr:hover {
+    height: 750px;
+}
+
+.thrdyr{
+    position: relative;
+    transition: height 0.5s ease;
+    -webkit-transition: height 0.5s;
+    height: 10px;
+    overflow: hidden;
+    border-color: azure;
+}
+
+.thrdyr:hover {
+    height: 585px;
+}
+
+.frtyr{
+    position: relative;
+    transition: height 0.5s ease;
+    -webkit-transition: height 0.5s;
+    height: 10px;
+    overflow: hidden;
+    border-color: azure;
+}
+
+.frtyr:hover {
+    height: 675px;
+}
+
+@media only screen and (max-width: 474px) {
+    .self-picture {
+        max-width: 100px;
+        max-height: 100px;
+        margin-top: 125px;
+    }
+
+    .fstyr:hover {
+        height: 725px;
+    }
+
+    .sndyr:hover {
+        height: 1000px;
+    }
+
+    .thrdyr:hover {
+        height: 900px;
+    }
+
+    .frtyr:hover {
+        height: 540px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 390px) {
+    .self-picture {
+        max-width: 100px;
+        max-height: 100px;
+        margin-top: 125px;
+    }
+
+    .fstyr:hover {
+        height: 900px;
+    }
+
+    .sndyr:hover {
+        height: 1280px;
+    }
+
+    .thrdyr:hover {
+        height: 1100px;
+    }
+
+    .frtyr:hover {
+        height: 700px;
+    }
+}
